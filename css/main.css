@@ -1,0 +1,43 @@
+.container{
+    width: 1300px;
+    margin: auto;
+    outline: solid 1px;
+}
+.quickcontact-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-flex{
+    display: flex;
+    justify-content: center;
+}
+.about-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-flex .about{
+    width: 50%;
+    outline: solid 1px red;
+}
+.features-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.features-flex .featurebox{
+    width: 33.33%;
+    outline: solid 1px red;
+    height: 100px;
+}
+.achivement-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.achivement-flex .achivemnetbox{
+    width: 25%;
+    outline: solid 1px red;
+    height: 100px;
+}
